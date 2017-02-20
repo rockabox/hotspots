@@ -1,7 +1,3 @@
 language: node_js
 node_js:
   - "6"
-addons:
-  firefox: "latest"
-before_install:
-  - export CHROME_BIN=chromium-browser

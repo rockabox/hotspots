@@ -38,14 +38,13 @@ module.exports = function (config) {
         port: 9876,
         colors: true,
         logLevel: config.LOG_INFO,
-        browsers: ['Chrome', 'Firefox'],
+        browsers: ['PhantomJS'],
         plugins: [
             require('karma-coverage'),
             require('karma-webpack'),
             require('karma-jasmine'),
-            require('karma-chrome-launcher'),
-            require('karma-firefox-launcher'),
-            require('karma-typescript-preprocessor')
+            require('karma-typescript-preprocessor'),
+            require('karma-phantomjs-launcher')
         ],
         singleRun: true
     });
