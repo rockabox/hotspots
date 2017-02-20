@@ -9,19 +9,21 @@ module.exports = {
         path: path.join(__dirname, 'dist')
     },
     resolve: {
-        modulesDirectories: [
-            path.join(__dirname, 'node_modules')
-        ],
-        extensions: ['', '.ts', '.js']
+        modules: ['node_modules'],
+        extensions: ['.ts', '.js']
     },
     module: {
-        preLoaders: [
-            { test: /\.ts$/,loader: 'tslint' }
-        ],
-        loaders: [{
-            test: /\.ts$/,
-            exclude: /node_modules/,
-            loader: 'ts-loader'
-        }]
+        rules: [
+            {
+                enforce: 'pre',
+                test: /\.ts$/,
+                loader: 'tslint-loader'
+            },
+            {
+                test: /\.ts$/,
+                exclude: /node_modules/,
+                loader: 'ts-loader'
+            }
+        ]
     }
 }
