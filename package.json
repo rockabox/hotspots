@@ -1,0 +1,47 @@
+{
+  "name": "hotspots",
+  "version": "1.0.0",
+  "description": "Hotspots generation library",
+  "main": "lib/hotspots.ts",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "concurrent \"webpack -w\" \"npm run lite\" ",
+    "karma": "karma start karma.conf.js || true",
+    "test": "npm run webpack && npm run webpack:dev && npm run karma",
+    "pretest": "npm run typings",
+    "webpack": "webpack --config webpack.base.config.js",
+    "webpack:dev": "webpack --config webpack.config.js",
+    "typings": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockabox/hotspots.git"
+  },
+  "author": "Scoota <tech@scoota.com> (http://scoota.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rockabox/hotspots/issues"
+  },
+  "homepage": "https://github.com/rockabox/hotspots#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "~1.0.0",
+    "connect-history-api-fallback": "~1.1.0",
+    "istanbul-instrumenter-loader": "~0.2.0",
+    "jasmine-core": "~2.4.1",
+    "karma": "~0.13.19",
+    "karma-chrome-launcher": "~0.2.2",
+    "karma-cli": "~0.1.2",
+    "karma-coverage": "~0.5.3",
+    "karma-firefox-launcher": "~0.1.7",
+    "karma-jasmine": "~0.3.7",
+    "karma-webpack": "~1.7.0",
+    "lite-server": "~2.0.1",
+    "ts-loader": "~0.8.0",
+    "tslint": "~3.3.0",
+    "tslint-loader": "~2.1.0",
+    "typescript": "~1.7.5",
+    "typings": "~0.6.7",
+    "webpack": "~1.12.13"
+  }
+}

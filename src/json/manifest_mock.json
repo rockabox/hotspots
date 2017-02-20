@@ -1,0 +1,566 @@
+[
+    {
+        "component_type": "layout",
+        "id": "layout_2",
+        "component_id": 2,
+        "css": {
+            "top": "0px",
+            "left": "0px",
+            "width": "300px",
+            "height": "600px",
+            "z-index": 0,
+            "background-color": "wheat"
+        },
+        "component_manifests": [
+            {
+                "component_type": "button",
+                "id": "button_1",
+                "component_id": 1,
+                "css": {
+                    "top": "0px",
+                    "left": "0px",
+                    "width": "300px",
+                    "height": "125px",
+                    "z-index": 0
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bg_bg_off_1.jpeg",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bg_bg_on.jpeg",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bg_bg_off_1.jpeg",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bg_bg_off_1.jpeg"
+            },
+            {
+                "component_type": "layout",
+                "id": "layout_3",
+                "component_id": 3,
+                "css": {
+                    "top": "125px",
+                    "left": "0px",
+                    "width": "300px",
+                    "height": "169px",
+                    "z-index": 0,
+                    "background-color": "wheat"
+                },
+                "component_manifests": [
+                    {
+                        "component_type": "video",
+                        "id": "video_1",
+                        "component_id": 1,
+                        "css": {
+                            "top": "0px",
+                            "left": "0px",
+                            "width": "300px",
+                            "height": "169px",
+                            "z-index": 0
+                        },
+                        "mp4_url": "//rbxliveassets.s3.amazonaws.com/encoded_videos/feeds/132376/132453/135378/720p_1421407993_out.mp4",
+                        "webm_url": "//rbxliveassets.s3.amazonaws.com/encoded_videos/feeds/132376/132453/135378/720p_1421407993_out.webm",
+                        "thumbnail_url": "//rbxliveassets.s3.amazonaws.com/133141/video_landing_1.jpeg",
+                        "autoplay": true,
+                        "controls": false,
+                        "fullscreen": true,
+                        "loop": 1
+                    }
+                ]
+            },
+            {
+                "component_type": "layout",
+                "id": "layout_4",
+                "component_id": 4,
+                "css": {
+                    "top": "303px",
+                    "left": "121px",
+                    "width": "187px",
+                    "height": "206px",
+                    "z-index": 0,
+                    "background-color": "wheat"
+                },
+                "component_manifests": [
+                    {
+                        "component_type": "button",
+                        "id": "button_11",
+                        "component_id": 1,
+                        "css": {
+                            "top": "0px",
+                            "left": "0px",
+                            "width": "187px",
+                            "height": "206px",
+                            "z-index": 0
+                        },
+                        "url": "//rbxliveassets.s3.amazonaws.com/133141/video_landing_1.jpeg"
+                    }
+                ]
+            },
+            {
+                "component_type": "image",
+                "id": "image_2",
+                "component_id": 2,
+                "css": {
+                    "top": "302px",
+                    "left": "8px",
+                    "width": "122px",
+                    "height": "33px",
+                    "z-index": 0
+                },
+                "url": "//rbxliveassets.s3.amazonaws.com/133141/c_versus.jpeg"
+            },
+            {
+                "component_type": "button",
+                "id": "button_2",
+                "component_id": 2,
+                "css": {
+                    "top": "335px",
+                    "left": "8px",
+                    "width": "122px",
+                    "height": "66px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "video_1",
+                                    "target": "layout_3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_vid_1_off.jpeg",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_vid_1_on.jpeg",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_vid_1_off.jpeg",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_vid_1_off.jpeg"
+            },
+            {
+                "component_type": "button",
+                "id": "button_3",
+                "component_id": 3,
+                "css": {
+                    "top": "401px",
+                    "left": "8px",
+                    "width": "122px",
+                    "height": "66px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "video_2",
+                                    "target": "layout_3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_vid_2_off.jpeg",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_vid_2_on_1.jpeg",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_vid_2_off.jpeg",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_vid_2_off.jpeg"
+            },
+            {
+                "component_type": "button",
+                "id": "button_4",
+                "component_id": 4,
+                "css": {
+                    "top": "482px",
+                    "left": "8px",
+                    "width": "28px",
+                    "height": "28px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "image_1",
+                                    "target": "layout_4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_on.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_5",
+                "component_id": 5,
+                "css": {
+                    "top": "482px",
+                    "left": "40px",
+                    "width": "28px",
+                    "height": "28px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "image_4",
+                                    "target": "layout_4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_on.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_6",
+                "component_id": 6,
+                "css": {
+                    "top": "482px",
+                    "left": "71px",
+                    "width": "28px",
+                    "height": "28px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "image_5",
+                                    "target": "layout_4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_on.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_7",
+                "component_id": 7,
+                "css": {
+                    "top": "482px",
+                    "left": "102px",
+                    "width": "28px",
+                    "height": "28px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "image_6",
+                                    "target": "layout_4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_on.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_gallery1_off.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_8",
+                "component_id": 8,
+                "css": {
+                    "top": "525px",
+                    "left": "44px",
+                    "width": "66px",
+                    "height": "66px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "clickthrough",
+                                    "url": "https://s3-eu-west-1.amazonaws.com/rb-creative/iloverihanna/index.html"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_fb_off.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_fb_on.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_fb_off.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_fb_off.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_9",
+                "component_id": 9,
+                "css": {
+                    "top": "524px",
+                    "left": "119px",
+                    "width": "66px",
+                    "height": "65px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "clickthrough",
+                                    "url": "/launch"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/Launch_Off.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/launch_on.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/Launch_Off.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/Launch_Off.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_10",
+                "component_id": 10,
+                "css": {
+                    "top": "524px",
+                    "left": "196px",
+                    "width": "66px",
+                    "height": "65px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "layout_5",
+                                    "target": "layout_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_shop_look_off.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_shop_look_on.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_shop_look_off.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_shop_look_off.png"
+            }
+        ]
+    },
+    {
+        "component_type": "layout",
+        "id": "layout_5",
+        "component_id": 5,
+        "css": {
+            "top": "0px",
+            "left": "0px",
+            "width": "300px",
+            "height": "600px",
+            "z-index": 0,
+            "background-color": "#ffffff"
+        },
+        "actions": {},
+        "component_manifests": [
+            {
+                "component_type": "image",
+                "id": "image_3",
+                "component_id": 3,
+                "css": {
+                    "top": "0px",
+                    "left": "0px",
+                    "width": "300px",
+                    "height": "600px",
+                    "z-index": 0
+                },
+                "url": "//rbxliveassets.s3.amazonaws.com/133141/c_look_woman_bg.jpeg"
+            },
+            {
+                "component_type": "button",
+                "id": "button_12",
+                "component_id": 12,
+                "css": {
+                    "top": "-1px",
+                    "left": "175px",
+                    "width": "126px",
+                    "height": "126px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "clickthrough",
+                                    "url": "http://uk.versace.com/Fashion-Show-Look-4/VWPE2014LK004,en_GB,pd.html"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_buy_look.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_buy_look.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_buy_look.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_buy_look.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_13",
+                "component_id": 13,
+                "css": {
+                    "top": "525px",
+                    "left": "44px",
+                    "width": "66px",
+                    "height": "66px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "clickthrough",
+                                    "url": "https://s3-eu-west-1.amazonaws.com/rb-creative/iloverihanna/index.html"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_fb_video_off.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_fb_video_off.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_fb_video_off.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_fb_video_off.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_14",
+                "component_id": 14,
+                "css": {
+                    "top": "524px",
+                    "left": "119px",
+                    "width": "66px",
+                    "height": "65px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "close"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_x_on.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_x_on.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_x_on.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_x_on.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_15",
+                "component_id": 15,
+                "css": {
+                    "top": "524px",
+                    "left": "196px",
+                    "width": "66px",
+                    "height": "65px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "layout_2",
+                                    "target": "layout_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_video_look_off.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_video_look_off.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_video_look_off.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_video_look_off.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_16",
+                "component_id": 16,
+                "css": {
+                    "top": "276px",
+                    "left": "5px",
+                    "width": "44px",
+                    "height": "44px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "layout_6",
+                                    "target": "layout_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_look_left.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_look_left.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_look_left.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_look_left.png"
+            },
+            {
+                "component_type": "button",
+                "id": "button_17",
+                "component_id": 17,
+                "css": {
+                    "top": "276px",
+                    "left": "250px",
+                    "width": "44px",
+                    "height": "44px",
+                    "z-index": 1
+                },
+                "triggers": {
+                    "click": [
+                        {
+                            "actions": [
+                                {
+                                    "type": "swap",
+                                    "component": "layout_6",
+                                    "target": "layout_1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "normal_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_look_right.png",
+                "hover_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_look_right.png",
+                "active_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_look_right.png",
+                "visited_image_url": "//rbxliveassets.s3.amazonaws.com/133141/bt_look_right.png"
+            }
+        ]
+    }
+]

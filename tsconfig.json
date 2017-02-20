@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "outDir": "dist/src"
+  },
+  "typings": [
+      "typings/**.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings"
+  ]
+}
