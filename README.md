@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rockabox/hotspots.svg?branch=master)](https://travis-ci.org/rockabox/hotspots)
+
 # Hotspots
 Draggable Hotspots library
 
