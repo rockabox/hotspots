@@ -1,0 +1,191 @@
+{
+    "data": [{
+        "creative_role": "first_desktop",
+        "creative": 1467,
+        "creative_component": {
+            "id": "1",
+            "component_type": "button",
+            "name": "button_1"
+        },
+        "presses": 29
+    }, {
+        "creative_role": "first_desktop",
+        "creative": 1467,
+        "creative_component": {
+            "id": "2",
+            "component_type": "button",
+            "name": "button_2"
+        },
+        "presses": 57
+    }, {
+        "creative_role": "first_desktop",
+        "creative": 1466,
+        "creative_component": {
+            "id": "3",
+            "component_type": "button",
+            "name": "button_3"
+        },
+        "presses": 17
+    }, {
+        "creative_role": "first_desktop",
+        "creative": 1465,
+        "creative_component": {
+            "id": "4",
+            "component_type": "button",
+            "name": "button_4"
+        },
+        "presses": 17
+    }, {
+        "creative_role": "second_desktop",
+        "creative": 1468,
+        "creative_component": {
+            "id": "5",
+            "component_type": "button",
+            "name": "button_5"
+        },
+        "presses": 150
+    }, {
+        "creative_role": "first_desktop",
+        "creative": 1465,
+        "creative_component": {
+            "id": "6",
+            "component_type": "button",
+            "name": "button_6"
+        },
+        "presses": 0
+    }, {
+        "creative_role": "first_desktop",
+        "creative": 1467,
+        "creative_component": {
+            "id": "7",
+            "component_type": "button",
+            "name": "button_7"
+        },
+        "presses": 0
+    }, {
+        "creative_role": "first_desktop",
+        "creative": 1465,
+        "creative_component": {
+            "id": "8",
+            "component_type": "button",
+            "name": "button_8"
+        },
+        "presses": 436
+    }, {
+        "creative_role": "first_desktop",
+        "creative": 1467,
+        "creative_component": {
+            "id": "9",
+            "component_type": "button",
+            "name": "button_9"
+        },
+        "presses": 145
+    }, {
+        "creative_role": "first_desktop",
+        "creative": 1466,
+        "creative_component": {
+            "id": "10",
+            "component_type": "button",
+            "name": "button_10"
+        },
+        "presses": 181
+    },
+    {
+        "creative_role": "first_desktop",
+        "creative": 1466,
+        "creative_component": {
+            "id": "11",
+            "component_type": "button",
+            "name": "button_11"
+        },
+        "presses": 88
+    },
+    {
+        "creative_role": "first_desktop",
+        "creative": 1466,
+        "creative_component": {
+            "id": "12",
+            "component_type": "button",
+            "name": "button_12"
+        },
+        "presses": 567
+    },
+    {
+        "creative_role": "first_desktop",
+        "creative": 1466,
+        "creative_component": {
+            "id": "13",
+            "component_type": "button",
+            "name": "button_13"
+        },
+        "presses": 181
+    },
+    {
+        "creative_role": "first_desktop",
+        "creative": 1466,
+        "creative_component": {
+            "id": "14",
+            "component_type": "button",
+            "name": "button_14"
+        },
+        "presses": 296
+    },
+    {
+        "creative_role": "first_desktop",
+        "creative": 1466,
+        "creative_component": {
+            "id": "15",
+            "component_type": "button",
+            "name": "button_15"
+        },
+        "presses": 113
+    },
+    {
+        "creative_role": "first_desktop",
+        "creative": 1466,
+        "creative_component": {
+            "id": "16",
+            "component_type": "button",
+            "name": "button_16"
+        },
+        "presses": 12
+    },
+    {
+        "creative_role": "first_desktop",
+        "creative": 1466,
+        "creative_component": {
+            "id": "17",
+            "component_type": "button",
+            "name": "button_17"
+        },
+        "presses": 537
+    }],
+    "columns": [{
+        "field": "creative_role",
+        "unit": null,
+        "title": "Creative Role"
+    }, {
+        "field": "creative",
+        "unit": null,
+        "title": "Creative"
+    }, {
+        "field": "creative_component",
+        "unit": null,
+        "title": "Creative Component"
+    }, {
+        "field": "clicks",
+        "unit": {
+            "type": "absolute_number",
+            "value": ""
+        },
+        "title": "Clicks"
+    }, {
+        "field": "presses",
+        "unit": {
+            "type": "absolute_number",
+            "value": ""
+        },
+        "title": "Presses"
+    }],
+    "last_timestamp": "2016-02-03T09:20:29+00:00"
+}
