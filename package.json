@@ -1,6 +1,6 @@
 {
-  "name": "hotspots",
-  "version": "1.0.0",
+  "name": "@rockabox/hotspots",
+  "version": "2.0.0",
   "description": "Hotspots generation library",
   "main": "lib/hotspots.ts",
   "scripts": {
@@ -45,5 +45,8 @@
     "typescript": "~2.1.6",
     "typings": "~0.6.7",
     "webpack": "~2.2.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
